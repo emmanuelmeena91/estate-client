@@ -9,11 +9,12 @@ import UserDashboard from "./components/UserDashboard";
 import AgentDashboard from "./components/AgentDashboard";
 import SignIn from "./components/SignIn";
 import SignUp from "./components/SignUp";
-
+import EstateClientComponent from "./components/EstateClientComponent"; // Import the EstateClientComponent
 
 function App() {
   return (
     <Routes>
+      <Route path="/estate-client" element={<EstateClientComponent />} />
       <Route path="/" element={<SignIn />} />
       <Route path="/createhouse" element={<CreateHouse />} />
       <Route path="/updatehouse" element={<UpdateHouse />} />
@@ -26,8 +27,7 @@ function App() {
       <Route path="/signup" element={<SignUp />} />
       <Route path="/logout" element={<Navigate to="/signin" />} />
     </Routes>
-  );  
+  );
 }
 
 export default App;
-  
