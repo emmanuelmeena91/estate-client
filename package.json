@@ -1,6 +1,6 @@
 {
-  "homepage":"http://emmanuelmeena91.github.io/estate-client",
   "name": "estate-client",
+  "homepage":"http://emmanuelmeena91.github.io/estate-client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
