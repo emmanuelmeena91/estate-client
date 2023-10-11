@@ -25,7 +25,6 @@ function EstateClientComponent() {
       >
         CLICK HERE TO CONTINUE
       </button>
-      {/* Add your component logic and UI */}
     </div>
   );
 }
