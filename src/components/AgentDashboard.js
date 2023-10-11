@@ -45,8 +45,6 @@ function AgentDashboard() {
         <p className="text-blue-600  mb-2">Name: {agent.name}</p>
         <p className="text-blue-600 mb-2">Email: {agent.email}</p>
         <p className="text-blue-600 mb-4">Phone Number: {agent.phonebook}</p>
-        {/* Links to other pages */}
-        {/* Display other agent details as needed */}
       </div>
     </div>
   );
