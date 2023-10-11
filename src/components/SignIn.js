@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 const SignIn = ({ setAuthenticated, setUserRole }) => {
     const [formData, setFormData] = useState({ email: "", password: "" });
@@ -56,13 +56,13 @@ const SignIn = ({ setAuthenticated, setUserRole }) => {
 
     return (
 <div>
-  {/* Background Image */}
+
   <div className="flex items-center justify-center h-screen bg-cover bg-no-repeat bg-center" style={{backgroundImage: `url('https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?cs=srgb&dl=pexels-binyamin-mellish-106399.jpg&fm=jpg')`}}>
     <div className="flex flex-col items-center justify-center text-white text-center px-8">
-      {/* Description */}
+
       <h1 className="text-6xl font-bold mb-4 text-blue-600">Discover Your Dream Home</h1>
       <p className="text-lg text-gray-700">With our House Listing website, unparalleled real estate opportunities await you. Whether you're searching for a cozy family home, a chic urban apartment, or a luxurious countryside estate, our platform offers an extensive range of meticulously curated properties to suit every lifestyle and budget. With user-friendly search tools and detailed property listings, finding the perfect house has never been easier. Explore diverse neighborhoods, visualize properties through immersive images, and connect with trusted real estate agents. Your new home is just a click away – start your journey towards homeownership today.</p>
-      {/* Sign In Form */}
+
       <div className="flex items-center justify-center py-8">
         <div className="flex flex-col items-center justify-center space-y-8 bg-white bg-opacity-80 p-8 rounded-lg">
           <h1 className="text-3xl font-bold mb-4 text-blue-800">REAL ESTATE KE</h1>
@@ -79,7 +79,7 @@ const SignIn = ({ setAuthenticated, setUserRole }) => {
             </label>
             <button type="submit" className="bg-blue-800 text-white py-2 px-4 rounded-md hover:bg-blue-900">Sign In</button>
           </form>
-          <p className="text-gray-500 mt-4">Don't have an account? <a href="/signup" className="text-blue-800">Sign Up</a></p>
+          <p className="text-gray-500 mt-4">Don't have an account? <Link to="/signup" className="text-blue-800">Sign Up</Link></p>
         </div>
       </div>
     </div>

@@ -6,7 +6,7 @@ function Home() {
 
   useEffect(() => {
     // Fetch houses data from API endpoint
-    fetch("https://housing-db-85734cb1418b.herokuapp.com/houses") // Update the API endpoint URL
+    fetch("https://housing-db-85734cb1418b.herokuapp.com/houses") 
       .then((response) => response.json())
       .then((data) => {
         if (Array.isArray(data)) {
@@ -27,8 +27,8 @@ function Home() {
         backgroundImage: `url(https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?cs=srgb&dl=pexels-binyamin-mellish-106399.jpg&fm=jpg)`,
         backgroundSize: "cover",
         backgroundPosition: "center",
-        opacity: 0.9, // Adjust the opacity value as desired
-        minHeight: "100vh", // Set the minimum height to cover the whole screen
+        opacity: 0.9, 
+        minHeight: "100vh", 
       }}
     >
       <h1 className="text-3xl font-semibold mb-8 text-center">House Listings</h1>
@@ -46,11 +46,11 @@ function Home() {
                 className="w-full h-36 object-cover rounded-t-xl"
               />
               <div className="absolute bottom-0 left-0 bg-blue-500 text-white p-2 rounded-tr-xl">
-                <span className="font-semibold">${house.price}</span>
+                <span className="font-semibold">Ksh {house.price}</span>
               </div>
             </div>
             <div className="p-4">
-              <h2 className="text-2xl font-semibold mb-2">{house.title}</h2>
+              <h2 className="text-gray-600 mb-2">{house.title}</h2>
               <p className="text-gray-600 mb-2">Size: {house.size} sqft</p>
               <p className="text-gray-600 mb-2">County: {house.county}</p>
             </div>
