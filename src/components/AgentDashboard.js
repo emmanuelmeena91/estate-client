@@ -1,9 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams, Link, useNavigate } from "react-router-dom";
 
-import React, { useEffect, useState } from "react";
-import { useParams, Link, useNavigate } from "react-router-dom";
-
 function AgentDashboard() {
   const { id } = useParams();
   const [agent, setAgent] = useState(null);
@@ -53,5 +50,4 @@ function AgentDashboard() {
   );
 }
 
-export default AgentDashboard; 
-
+export default AgentDashboard;
