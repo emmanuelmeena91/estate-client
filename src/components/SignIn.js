@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 
+
 const SignIn = ({ setAuthenticated, setUserRole }) => {
     const [formData, setFormData] = useState({ email: "", password: "" });
     const navigate = useNavigate();
@@ -89,3 +90,4 @@ const SignIn = ({ setAuthenticated, setUserRole }) => {
 };
 
 export default SignIn;
+
