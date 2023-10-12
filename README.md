@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+[08:12, 12/10/2023] Faith: ## Real Estate Listings Backend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
+1.Project Overview
+2.Technologies Used
+3.Getting Started
+4.API Endpoints
+5.Authentication
+6.Database
+7.Project Structure
+8.License
+## Project Overview
+The Real Estate Listings Backend is the server-side component of the Real Estate Listings Website. It provides the backend functionality for managing property listings, user authentication, and more. This backend serves as the bridge between the frontend user interface and the database, handling requests and responses.
 
-## Available Scripts
+## Technologies Used
+1.Flask: A micro web framework for building the backend.
+2.Flask-RESTful: An extension for building REST APIs with Flask.
+3.Flask-CORS: An extension for handling Cross-Origin Resource Sharing (CORS).
+4.Flask-Migrate: For…
+[08:12, 12/10/2023] Faith: ## Real Estate Listings Website
+ ## Team Members:
 
-In the project directory, you can run:
+ 1.Faith Kaburu
+ 2.Emmanuel Meena
+ 3.Maryanne Bitutu
+ 4.Prince Hope
 
-### `npm start`
+ ## Project Overview
+The Real Estate Listings Website aims to provide a comprehensive and user-friendly platform for property listings. It addresses the challenges faced by buyers, sellers, and real estate agents when it comes to finding, listing, and managing properties efficiently. This platform offers a seamless experience for property owners, buyers, and real estate agents by bridging the gap in the real estate market with advanced features for property discovery, buying, and selling processes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
+1.React.js
+2.Styling: Tailwind CSS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Project Structure
+The project structure includes the following key components:
 
-### `npm test`
+1.src/: Contains the source code for the frontend.
+2.components/: React components for different views and features.
+3.Routes/: Defines the application's routes using React Router.
+4.public/: Static assets and HTML template.
+5.App.js: The main application component.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Installation
+To get the project up and running on your local machine, follow these steps:
 
-### `npm run build`
+Clone the repository:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+git clone [https://github.com/emmanuelmeena91/estate-client]
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+`cd estate-client`
+Install dependencies:
+`npm install`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Start the development server:
+`npm start`
 
-### `npm run eject`
+The application is deployed so should be running at `https://emmanuelmeena91.github.io/estate-client/`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## License
+MIT license
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Authors
+ 1.Faith Kaburu
+ 2.Emmanuel Meena
+ 3.Maryanne Bitutu
+ 4.Prince Hope 
